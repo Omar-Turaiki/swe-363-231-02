@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h3>Share your feedbacks and recommendations</h3>
+    </head>
+    
+    <body>
+        <form action="thank you.html">
+            <p>
+                <label for="recommendations">Please recommende a game you think i might enjoy: </label><br>
+                <input type="text" name="recommendations"><br>
+            </p>
+            <p>
+                <label for="feedbacks">Write your feedback about my taste (grill me i can take it)</label><br>
+                <textarea name="feedbacks" id="feedbacks" cols="50" rows="10"></textarea>
+            </p>
+            <p>
+                <strong>What is your favorite video games genre (you can select multiple options)</strong><br>
+                <input type="checkbox" name="ch1" value="shooter">
+                <label for="ch1">shooter</label>
+                <input type="checkbox" name="ch2" value="RPG">
+                <label for="ch2">RPJ</label>
+                <input type="checkbox" name="ch3" value="action-adventure">
+                <label for="ch3">action-adventure</label>
+                <input type="checkbox" name="ch4" value="rogue-like">
+                <label for="ch4">rogue-like</label>
+                <input type="checkbox" name="ch5" value="beat em up/hack and slash">
+                <label for="ch5">beat em up/hack and slash</label>
+                <input type="checkbox" name="ch6" value="JRPG">
+                <label for="ch6">JRPG</label>
+                <input type="checkbox" name="ch6" value="platforming">
+                <label for="ch6">platforming</label>
+            </p>
+            <p>
+                <label for="gaming platform">What is your favorite gaming platform</label>
+                <input type="text" name="gaming platform" list="platforms" placeholder="type your preferred platform">
+                <datalist id="platforms">
+                    <option value="PC">
+                    <option value="PlayStation">
+                    <option value="Xbox">
+                    <option value="Nintendo Switch">
+                    <option value="Mobile">
+                </datalist>"
+            </p>
+            <p>
+                <label for="all time favorite">What is your favorite video game?</label>
+                <input type="text" name="all time favorite">
+            </p>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+    
+</html>
