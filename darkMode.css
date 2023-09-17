@@ -1,0 +1,11 @@
+body{
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+a{
+   color: #00a0e4;
+}
+
+a:hover{
+    color: #0077b6;
+}
